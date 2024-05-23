@@ -23,3 +23,8 @@ Here are some technical details about the implementation:
 
 (right)gif with particles and robot
 
+## How to run it
+You will need to install ROS first!
+1. run `python filter.py`
+2. 'rosbag play ./data/hw2_data.bag'
+3. run rviz and use config particle_filtering.rviz to see the result, or wait till filter.py finish running, a gif will be rendered under the folder.
